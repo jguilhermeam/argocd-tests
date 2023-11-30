@@ -11,6 +11,9 @@ spec:
   source:
     helm:
       releaseName: guestbook
+      valueFiles:
+        - values.yaml
+        - ./../custom-values.yaml
     path: chart
     repoURL: https://github.com/jguilhermeam/argocd-tests
   syncPolicy:

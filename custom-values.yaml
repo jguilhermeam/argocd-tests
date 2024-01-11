@@ -1,1 +1,1 @@
-image: traefik/whoami
+image: nginx
